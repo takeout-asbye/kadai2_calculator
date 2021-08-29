@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>電卓</title>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="main.css">
+  </head>
+  
+  <body>
+    <div>
+      <input id="textResult" type="button" value="0">
+    </div>
+    <div class="calc_row">
+      <input class="button" type="button" value="7" onclick="calcButtonClick(this)"><input class="button" type="button" value="8" onclick="calcButtonClick(this)"><input class="button" type="button" value="9" onclick="calcButtonClick(this)"><input class="button" type="button" value="+" onclick="calcButtonClick(this)">
+    </div>
+    <div class="calc_row">
+      <input class="button" type="button" value="4" onclick="calcButtonClick(this)"><input class="button" type="button" value="5" onclick="calcButtonClick(this)"><input class="button" type="button" value="6" onclick="calcButtonClick(this)"><input class="button" type="button" value="-" onclick="calcButtonClick(this)">
+    </div>
+    <div class="calc_row">
+      <input class="button" type="button" value="1" onclick="calcButtonClick(this)"><input class="button" type="button" value="2" onclick="calcButtonClick(this)"><input class="button" type="button" value="3" onclick="calcButtonClick(this)"><input class="button" type="button" value="*" onclick="calcButtonClick(this)">
+    </div>
+    <div class="calc_row">
+      <input class="button" type="button" value="0" onclick="calcButtonClick(this)"><input class="button" type="button" value="00" onclick="calcButtonClick(this)"><input class="button" type="button" value="." onclick="calcButtonClick(this)"><input class="button" type="button" value="/" onclick="calcButtonClick(this)">
+    </div>
+    <div class="calc_row">
+      <input class="button2" type="button" value="ac" onclick="calcButtonClick(this)"><input class="button2" type="button" value="=" onclick="calcButtonClick(this)">
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
